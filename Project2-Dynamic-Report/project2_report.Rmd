@@ -1,0 +1,70 @@
+---
+title: "Project 2"
+author: "Fanyun Sun"
+subtitle: "STATS 220 Semester One, 2026"
+date: "2026-04-01"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, code_folding = "hide")
+```
+
+## Introduction
+
+In this project, I collected observational data on the community's traffic patterns. My data collection focuses on observing people's travel patterns at different times of the day within the same area. I conducted multiple observations at the entrance of the primary school near my community at four different time periods: morning, midday, afternoon and evening. During each observation, I recorded the mode of travel, the group of travelers and the direction of travel. This enables me to compare the changes in travel behavior over time.
+
+When designing Google Forms, I followed the principle that questions should be concise and easy to understand. All the questions in the form use clear categories. For example, the mode of transportation is divided into "walking", "scooter", "bicycle", "driving" and "bus", and the mode of travel is divided into "alone", "traveling with two people", "Group of 3 or more". This helps to reduce confusion during the data collection process and ensures data consistency. In addition, to comply with ethical standards, I avoid collecting any personal or sensitive information.
+
+The data collected in this project enabled me to explore the patterns of community traffic behavior. For instance, I can compare which mode of transportation is the most commonly used, which time period is the busiest, and whether people prefer to travel alone or in groups. These findings help me better understand how daily living habits and convenience influence people's travel choices.
+
+The Google Form used for data collection is available at the link below:
+
+[My Google Form](https://forms.gle/DBUBwmrDx8MFKxXR8)
+
+Form design and data collection for this project were completed by me.
+
+
+## Dynamic report
+
+The dynamic report for this project is available at the link below:
+
+[My Dynamic report](https://sophie0426.github.io/stats220/)
+
+This report was created using R Markdown and integrates text, code, and visualisations in one document. It uses data from a Google Sheets dataset, which means the report can automatically update when new data are added.
+
+The report includes bar charts to show the distribution of transport modes, time periods, and travelling groups. It also uses dynamic text to display key findings, such as the most common transport mode and the busiest time period.
+
+Overall, the dynamic report provides a clear way to explore transport patterns in the community.
+
+## Discussion
+
+The analysis shows several clear patterns in the data. Walking is the most common transport mode, which suggests that it is a convenient and accessible option in the observed area. In addition, the morning period appears to be the busiest time, which likely reflects daily routines such as commuting to work or school. Most observations also involve people travelling alone or in pairs, indicating that individual or small-group travel is more common in this community.
+
+One strength of this project is that the data collection process was simple and consistent. The categories used in the form were clear and easy to observe, which helped reduce errors and made the data suitable for visualisation. Another strength is the use of a dynamic report, which allows the results to update automatically when new data are added.
+
+A key feature of this project is the creative presentation used in the dynamic report. For example, GIFs were included at the beginning and end of the report to make it more engaging. In addition, emojis were used below the first bar chart to visually represent the most common transport mode, with the number of emojis reflecting the frequency of that category. This helps to communicate the results in a more intuitive and visually appealing way, making the report easier to understand for a general audience.
+
+However, there are also some limitations. The data were collected at only one location, so the results may not represent the wider community. The sample size is relatively small, which limits the reliability of the conclusions. In addition, some observations may involve judgement, such as determining travelling groups.
+
+If I were to improve this project, I would collect data over a longer period and from multiple locations. I would also consider adding more variables, such as weather or time intervals, to provide deeper insights into transport behaviour.
+
+
+## Learning reflection
+
+This project helped me understand how to combine different tools to complete a full data project. Before this, I mainly used R for simple data analysis, but in this project, I learned how to connect Google Forms, Google Sheets, R and R Markdown together. This made me realize that data collection, analysis and presentation are all important components of this process.
+
+One important thing I have learned is that it is very important to carefully design the form from the very beginning. When making the table, I encountered some difficulties. How to organize the categories to make the problems clear and easy to observe. At first, I wasn't sure how detailed the options should be, so I made some modifications to improve it. By discussing and exploring different ideas with my classmates, I was able to improve the structure of the table to make it more suitable for data collection. This experience made me understand the importance of planning and solving problems.
+
+Another useful experience is to create dynamic reports. What I find interesting is that when the data changes, the report can be updated automatically, which makes the analysis more efficient. However, when using R Markdown and GitHub Pages, I also face some challenges. Sometimes, some minor errors, such as format or code issues, can lead to the report not being generated correctly. By solving these problems step by step, I became more confident in debugging and carefully checking my work, and I gained a great sense of satisfaction after completing it.
+
+Overall, this project has helped me enhance my technical skills and my ability to think more critically about data. Now I have a better understanding of how to design the data collection process and how to present the results in a clear and engaging way.
+
+## Appendix
+
+```{r file='exploration.R', eval=FALSE, echo=TRUE}
+
+```
+```{r file='dynamic_report.Rmd', eval=FALSE, echo=TRUE}
+
+```
