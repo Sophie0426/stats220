@@ -2,19 +2,25 @@
 
 ## Overview
 
-This project was created for STATS 220 at the University of Auckland.
+This project was completed for **STATS 220** at the University of Auckland.
 
-The goal was to create an original meme using R. I used the **magick** package to edit an image and add text to create a humorous meme about student life.
+The aim of this project was to create an original meme using R and the **magick** package. I designed a meme based on the common student experience of opening TikTok before studying and unexpectedly spending the whole evening on it.
 
 ## Skills
 
 - R
 - magick
 - Image manipulation
-- Basic programming
+- R Markdown
 
-## Output
+## Files
 
-The final meme is shown below.
+- `meme.R` – R code used to create the meme
+- `project1_report.Rmd` – Source report
+- `project1_report.html` – Final report
+- `my_meme.png` – Final meme
+- `my_animated_meme.gif` – Animated version
 
-![Meme](meme.png)
+## Final Meme
+
+![My Meme](my_meme.png)
