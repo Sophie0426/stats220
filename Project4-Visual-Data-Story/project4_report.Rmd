@@ -1,0 +1,75 @@
+---
+title: "Project4"
+author: "Fanyun Sun"
+date: "2026-05-13"
+output:
+  html_document:
+    self_contained: true
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{css, echo=FALSE}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333333;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #2171b5;
+}
+
+h2 {
+  color: #6baed6;
+  border-bottom: 2px solid #deebf7;
+  padding-bottom: 5px;
+}
+```
+
+
+
+## Introduction
+
+The focus of my data collection was observing how people travelled in my local community at different times of the day. Over several days, I recorded information such as transport mode, travelling group size, and time period. The aim of this project was to better understand movement patterns in everyday community life.
+
+For this project, I reused the Google Form from Project 2 because the original topic was still suitable for observational data collection. I continued collecting more observations to make the dataset larger and more useful for creating visualisations. I also checked my questions again to make sure they followed the observational logging guidelines from Module 2. The questions were simple and focused on behaviours that could be directly observed instead of personal opinions.
+
+The data was mainly collected by myself. I observed people moving through community areas during morning, midday, afternoon, and evening periods.
+
+When creating the visualisations, I focused on variables that could clearly show changes in transport behaviour during different times of the day. I chose transport mode because it was the main variable in my dataset and connected well to the overall story. I also included travelling group size because it added a social aspect and made the analysis more interesting.
+
+I used different chart types for different purposes. For example, I used a bar chart to compare the total number of transport modes because it clearly showed differences in frequency. I used grouped bar charts to compare transport patterns across different time periods, which made comparisons easier. I also used a line chart to show how travelling group patterns changed throughout the day because line charts are useful for showing trends over time.
+
+At the beginning, I tried adding too many colours and decorations, but the visualisations became difficult to read. Later, I simplified the design and used a consistent colour palette from ColorBrewer to make the webpage look cleaner and more organised. I also changed the layout and explanations in the HTML visual story so the plots felt more connected and easier to follow like a story.
+
+## Visual data story
+
+[My Visual Data Story](https://sophie0426.github.io/stats220/visual_data_story.html)
+
+I believe my visual data story demonstrates creativity because I tried to create a connected story instead of only showing charts. Rather than placing the visualisations separately, I organised them into sections that explained how transport patterns changed during different times of the day. The headings and explanations were written to guide the reader through the story step by step.
+
+I also used CSS styling to make the webpage look more attractive and consistent. I chose a pastel colour palette from ColorBrewer and used similar colours across the charts and webpage design. This helped the project look more organised and professional.
+
+In addition, I included GIF images and short reflections to make the webpage feel more interesting and personal. These extra elements helped improve the atmosphere of the story without taking attention away from the data itself. I also used the scrolling reveal effect from the provided template to make the reading experience smoother and more interactive.
+
+My creativity was not simply about adding extra features. Instead, I focused on improving the presentation and communication of the data so that the visualisations were easier to understand and more enjoyable to read.
+
+
+## Learning reflection
+
+One important idea I learned from Module 4 was that visualisations should not only look attractive, but also clearly communicate information. Before this project, I mainly focused on making charts that displayed data. However, during this project I learned that effective visual communication also depends on layout, colours, labels, captions, and the order that information is presented.
+
+I also learned that different chart types are useful for different purposes. For example, bar charts are useful for comparing numbers, while line charts are better for showing changes over time. Choosing suitable colours with good contrast and avoiding too many unnecessary design elements also helped make the visualisations easier to understand.
+
+This project made me more interested in interactive data visualisation. In the future, I would like to learn more about creating interactive visualisations and combining R with more advanced HTML and CSS.
+
+## Appendix
+```{r file='visual_data_story.Rmd', eval=FALSE, echo=TRUE}
+
+```
