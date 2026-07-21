@@ -1,0 +1,29 @@
+# Project 2 – Dynamic Report
+
+## Overview
+
+This project was completed for **STATS 220** at the University of Auckland.
+
+The aim of this project was to create a dynamic report using **R Markdown**. The report combines text, code, data visualisation and automatically generated results in a reproducible workflow.
+
+## Skills
+
+- R
+- R Markdown
+- tidyverse
+- Data visualisation
+- Dynamic reporting
+
+## Files
+
+- `exploration.R` – Data exploration and analysis
+- `dynamic_report.Rmd` – Source code for the dynamic report
+- `dynamic_report.html` – Generated dynamic report
+- `project2_report.Rmd` – Final project report
+- `project2_report.html` – Final project report in HTML
+
+## Learning Outcomes
+
+- Created reproducible reports using R Markdown
+- Combined code, figures and narrative into a single document
+- Improved data analysis and reporting skills
